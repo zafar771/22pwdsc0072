@@ -1,0 +1,102 @@
+body {
+    background-image: url(back1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+p,ul,li{
+    color: white;;
+}
+header {
+    background: #097dcb;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #edf0f2;
+}
+
+img {
+    max-width: 100%;
+    height: auto
+}
+main.workouts1{
+    text-align: center;
+}
+
+
+/* Centering the form */
+
+/* Centering the specific form */
+#contact-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height for vertical centering */
+}
+
+.contact-form {
+    background-color: #333; /* Optional: dark background for contrast */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling the labels */
+.contact-form label {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+/* Additional styling for inputs */
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#submitbutton {
+    background-color: #4CAF50; /* Optional: green submit button */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#submitbutton:hover {
+    background-color: #45a049;
+}
+
+
+
